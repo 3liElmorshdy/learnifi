@@ -1,0 +1,4 @@
+import{j as e}from"./ui-BZeplaRy.js";import{u as r}from"./router-CwybhznX.js";import"./vendor-gH-7aFTg.js";const o="/learnifi/assets/lock-DAk-Hl0_.png";function i(){const t=r();return e.jsxs("div",{className:"flex flex-col items-center justify-center min-h-screen text-center p-6","data-aos":"fade-down",children:[e.jsx("div",{className:"w-30 mx-auto",children:e.jsx("img",{src:o,alt:"lock"})}),e.jsx("h1",{className:"text-3xl font-bold mb-2",children:"Access Denied"}),e.jsx("p",{className:"text-gray-500 mb-6",children:"You don't have permission to view this page."}),e.jsx("button",{className:`btn bg-gradient-to-r from-[var(--secondary-color)] to-[var(--stars-color)] 
+                      border border-[var(--stars-color)] text-white
+                      hover:bg-white hover:from-transparent hover:to-transparent hover:text-[var(--secondary-color)] 
+                      transition-colors duration-300`,onClick:()=>t("/"),children:"Go Home"})]})}export{i as default};

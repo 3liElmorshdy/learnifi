@@ -1,0 +1,52 @@
+# MIME type headers for JavaScript modules
+/assets/*.js
+  Content-Type: application/javascript
+
+# MIME type headers for source JavaScript files (development)
+/src/*.js
+  Content-Type: application/javascript
+
+/src/*.jsx
+  Content-Type: application/javascript
+
+# MIME type headers for all JavaScript files
+/*.js
+  Content-Type: application/javascript
+
+/*.jsx
+  Content-Type: application/javascript
+
+# MIME type headers for CSS files
+/assets/*.css
+  Content-Type: text/css
+
+# MIME type headers for other assets
+/assets/*.woff2
+  Content-Type: font/woff2
+
+/assets/*.woff
+  Content-Type: font/woff
+
+/assets/*.ttf
+  Content-Type: font/ttf
+
+/assets/*.eot
+  Content-Type: application/vnd.ms-fontobject
+
+/assets/*.svg
+  Content-Type: image/svg+xml
+
+/assets/*.png
+  Content-Type: image/png
+
+/assets/*.jpg
+  Content-Type: image/jpeg
+
+/assets/*.gif
+  Content-Type: image/gif
+
+# Security headers
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin

@@ -1,0 +1,1 @@
+import{j as o}from"./ui-BZeplaRy.js";import{l as r}from"./index-DZ1UpVB2.js";import{N as s}from"./router-CwybhznX.js";function a(){return o.jsx(s,{to:"/",children:o.jsx("div",{className:"w-30 mb-5 mx-auto",children:o.jsx("img",{src:r,alt:"logo"})})})}export{a as L};

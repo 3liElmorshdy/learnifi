@@ -1,0 +1,1 @@
+import{j as t}from"./ui-BZeplaRy.js";import"./router-CwybhznX.js";import"./vendor-gH-7aFTg.js";const o="/learnifi/assets/404-error-with-a-cute-animal-animate-8T1NuUPe.svg";function s(){return t.jsx("div",{className:"pt-40 w-3/6 lg:w-2/6 mx-auto",children:t.jsx("img",{src:o,alt:"notfound"})})}export{s as default};
